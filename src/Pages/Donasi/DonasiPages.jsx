@@ -8,7 +8,7 @@ export default function DonasiPages() {
     <>
       <Header />
       <Donasi />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
