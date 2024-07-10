@@ -19,12 +19,12 @@ export default function Footer() {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium font-poppins">
                 <li class="mb-4">
-                  <a href="#" class="hover:text-white">
+                  <a href="/" class="hover:text-white">
                     Beranda
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="#" class="hover:text-white">
+                  <a href="/donasi" class="hover:text-white">
                     Donasi
                   </a>
                 </li>
