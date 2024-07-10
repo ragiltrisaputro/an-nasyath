@@ -27,7 +27,7 @@ export default function Home() {
   }
 
   return (
-    <>
+    <div className="overflow-x-hidden">
       <Header />
       <Cover />
       <Sambutan />
@@ -37,6 +37,6 @@ export default function Home() {
       <Footer />
       <Totop />
       <WhatsAppChatButton />
-    </>
+    </div>
   );
 }
