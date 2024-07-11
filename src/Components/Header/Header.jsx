@@ -47,7 +47,7 @@ export default function Header() {
         <ul className="hidden lg:flex gap-6 items-center">
           <li>
             <a
-              href="#"
+              href="/"
               className="font-poppins text-slate-50 font-normal hover:font-bold transition duration-200"
             >
               Beranda
@@ -63,7 +63,7 @@ export default function Header() {
           </li>
           <li className="relative group">
             <a
-              href="#"
+              href="/profil-pesantren"
               className="font-poppins text-white font-normal hover:font-bold flex items-center gap-1 transition duration-200"
             >
               Profil
@@ -84,16 +84,16 @@ export default function Header() {
             </a>
             <div className="absolute top-full left-0 bg-white dark:bg-gray-800 shadow-lg py-2 mt-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out z-10 w-auto">
               <a
-                href="#"
+                href="/profil-pesantren"
                 className="block px-4 py-2 text-sm font-poppins font-normal hover:font-bold hover:bg-blue-50 dark:hover:bg-gray-600 whitespace-nowrap"
               >
                 Profil Pesantren
               </a>
               <a
-                href="#"
+                href="/prestasi-pesantren"
                 className="block px-4 py-2 text-sm font-poppins font-normal hover:font-bold hover:bg-blue-50 dark:hover:bg-gray-600 whitespace-nowrap"
               >
-                Visi & Misi
+                Prestasi
               </a>
               <a
                 href="#"
@@ -152,7 +152,7 @@ export default function Header() {
               href="#"
               className="font-poppins text-white font-normal hover:font-bold flex items-center gap-1 transition duration-200"
             >
-              Kabar & Artikel
+              Pendaftaran
               <svg
                 className="w-4 h-4"
                 fill="none"
@@ -173,19 +173,13 @@ export default function Header() {
                 href="#"
                 className="block px-4 py-2 text-sm font-poppins font-normal hover:font-bold hover:bg-blue-50 dark:hover:bg-gray-600 whitespace-nowrap"
               >
-                Gallery
+                Informasi Pendaftaran
               </a>
               <a
                 href="#"
                 className="block px-4 py-2 text-sm font-poppins font-normal hover:font-bold hover:bg-blue-50 dark:hover:bg-gray-600 whitespace-nowrap"
               >
-                Artikel
-              </a>
-              <a
-                href="#"
-                className="block px-4 py-2 text-sm font-poppins font-normal hover:font-bold hover:bg-blue-50 dark:hover:bg-gray-600 whitespace-nowrap"
-              >
-                Kabar
+                Form Pendaftaran
               </a>
             </div>
           </li>
@@ -245,18 +239,18 @@ export default function Header() {
               </svg>
             </button>
             {isMobileProfilDropdownOpen && (
-              <div className="flex flex-col w-full items-center bg-gray-100 dark:bg-gray-700 transition-opacity duration-300 ease-in-out">
+              <div className="flex flex-col w-full items-center bg-white dark:bg-gray-700 transition-opacity duration-300 ease-in-out">
                 <a
-                  href="#"
+                  href="/profil-pesantren"
                   className="block px-4 py-2 text-sm font-poppins font-normal hover:font-bold w-full text-center"
                 >
                   Profil Pesantren
                 </a>
                 <a
-                  href="#"
+                  href="/prestasi-pesantren"
                   className="block px-4 py-2 text-sm font-poppins font-normal hover:font-bold w-full text-center"
                 >
-                  Visi & Misi
+                  Prestasi
                 </a>
                 <a
                   href="#"
@@ -291,7 +285,7 @@ export default function Header() {
               </svg>
             </button>
             {isMobileUnitDropdownOpen && (
-              <div className="flex flex-col w-full items-center bg-gray-100 dark:bg-gray-700 transition-opacity duration-300 ease-in-out">
+              <div className="flex flex-col w-full items-center bg-white dark:bg-gray-700 transition-opacity duration-300 ease-in-out">
                 <a
                   href="#"
                   className="block px-4 py-2 text-sm font-poppins font-normal hover:font-bold w-full text-center"
@@ -299,13 +293,15 @@ export default function Header() {
                   Madrasah Ibtidaiyah
                 </a>
                 <a
-                  href="#"
+                  href="https://mtsnuriman.sch.id/"
+                  target="_blank"
                   className="block px-4 py-2 text-sm font-poppins font-normal hover:font-bold w-full text-center"
                 >
                   Madrasah Tsanawiyah
                 </a>
                 <a
-                  href="#"
+                  href="https://manuriman.sch.id/"
+                  target="_blank"
                   className="block px-4 py-2 text-sm font-poppins font-normal hover:font-bold w-full text-center"
                 >
                   Madrasah Aliyah
@@ -318,7 +314,7 @@ export default function Header() {
               onClick={() => setIsMobileKabarDropdownOpen((prev) => !prev)}
               className="font-poppins font-normal hover:font-bold flex items-center gap-1"
             >
-              Kabar & Artikel
+              Pendaftaran
               <svg
                 className={`w-4 h-4 transform transition-transform ${
                   isMobileKabarDropdownOpen ? "rotate-180" : ""
@@ -337,24 +333,18 @@ export default function Header() {
               </svg>
             </button>
             {isMobileKabarDropdownOpen && (
-              <div className="flex flex-col w-full items-center bg-gray-100 dark:bg-gray-700 transition-opacity duration-300 ease-in-out">
+              <div className="flex flex-col w-full items-center bg-white dark:bg-gray-700 transition-opacity duration-300 ease-in-out">
                 <a
                   href="#"
                   className="block px-4 py-2 text-sm font-poppins font-normal hover:font-bold w-full text-center"
                 >
-                  Gallery
+                  Informasi Pendaftaran
                 </a>
                 <a
                   href="#"
                   className="block px-4 py-2 text-sm font-poppins font-normal hover:font-bold w-full text-center"
                 >
-                  Artikel
-                </a>
-                <a
-                  href="#"
-                  className="block px-4 py-2 text-sm font-poppins font-normal hover:font-bold w-full text-center"
-                >
-                  Kabar
+                  Form Pendaftaran
                 </a>
               </div>
             )}
