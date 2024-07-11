@@ -10,7 +10,7 @@ export default function CoverGalery() {
   }, []);
 
   return (
-    <div className="bg-[#F9FBFD]">
+    <div className="bg-[#F9FBFD] pb-2">
       <div className="container mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 mb-10">
         <div className="mt-8 mb-6 flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-8">
           <h2

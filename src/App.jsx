@@ -5,6 +5,7 @@ import SambutanP from "./Pages/Sambutan/SambutanP";
 import DonasiPages from "./Pages/Donasi/DonasiPages";
 import ProfilPesantren from "./Pages/ProfilPesantren/ProfilPesantren";
 import PrestasiPage from "./Pages/PrestasiPages/PrestasiPages";
+import ContactPages from "./Pages/Contact/ContactPages";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/donasi" element={<DonasiPages />} />
         <Route path="/profil-pesantren" element={<ProfilPesantren />} />
         <Route path="/prestasi-pesantren" element={<PrestasiPage />} />
+        <Route path="/kontak" element={<ContactPages />} />
       </Routes>
     </Router>
   );

@@ -185,7 +185,7 @@ export default function Header() {
           </li>
           <li>
             <a
-              href="#"
+              href="/kontak"
               className="font-poppins text-white font-normal hover:font-bold transition duration-200"
             >
               Kontak
@@ -349,7 +349,10 @@ export default function Header() {
               </div>
             )}
           </div>
-          <a href="#" className="font-poppins font-normal hover:font-bold">
+          <a
+            href="/kontak"
+            className="font-poppins font-normal hover:font-bold"
+          >
             Kontak
           </a>
         </div>

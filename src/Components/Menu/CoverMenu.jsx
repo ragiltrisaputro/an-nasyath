@@ -1,8 +1,11 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Fasilitas } from "../../assets/Image/Icons/Fasilitas";
+import { Lokasi } from "../../assets/Image/Icons/Lokasi";
+import { Sejarah } from "../../assets/Image/Icons/Sejarah";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Prestasi } from "../../assets/Image/Icons/Prestasi";
 
 export default function CoverMenu() {
   useEffect(() => {
@@ -58,7 +61,7 @@ export default function CoverMenu() {
                 data-aos-delay="200"
               >
                 <div className="mt-8 mb-8 mx-4">
-                  <img src={Fasilitas} alt="" className="h-10" />
+                  <img src={Lokasi} alt="" className="h-10" />
                   <h2 className="text-lg font-bold font-poppins">Lokasi</h2>
                   <p className="hidden md:block mb-4 font-poppins">
                     Terletak di Mlangi Nogotirto Gamping Sleman Yogyakarta.
@@ -74,7 +77,7 @@ export default function CoverMenu() {
                 data-aos-delay="300"
               >
                 <div className="mt-8 mb-8 mx-4">
-                  <img src={Fasilitas} alt="" className="h-10" />
+                  <img src={Sejarah} alt="" className="h-10" />
                   <h2 className="text-lg font-bold font-poppins">Sejarah</h2>
                   <p className="hidden md:block mb-4 font-poppins">
                     Berdiri sejak tahun 1980, berkomitmen untuk memberikan
@@ -91,14 +94,14 @@ export default function CoverMenu() {
                 data-aos-delay="400"
               >
                 <div className="mt-8 mb-8 mx-4">
-                  <img src={Fasilitas} alt="" className="h-10" />
+                  <img src={Prestasi} alt="" className="h-10" />
                   <h2 className="text-lg font-bold font-poppins">Prestasi</h2>
                   <p className="hidden md:block mb-4 font-poppins">
                     Meraih berbagai prestasi dalam bidang akademik dan kegiatan
                     ekstrakurikuler.
                   </p>
                   <button className="bg-blue-500 px-6 rounded-md text-white mt-2 py-0.5 font-poppins">
-                    <Link to="#">Lihat</Link>
+                    <Link to="/prestasi-pesantren">Lihat</Link>
                   </button>
                 </div>
               </div>
