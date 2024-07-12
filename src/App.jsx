@@ -6,6 +6,7 @@ import DonasiPages from "./Pages/Donasi/DonasiPages";
 import ProfilPesantren from "./Pages/ProfilPesantren/ProfilPesantren";
 import PrestasiPage from "./Pages/PrestasiPages/PrestasiPages";
 import ContactPages from "./Pages/Contact/ContactPages";
+import InfoPendaftaranPage from "./Pages/InfoPendaftaranPage/InfoPendaftaranPage";
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
         <Route path="/profil-pesantren" element={<ProfilPesantren />} />
         <Route path="/prestasi-pesantren" element={<PrestasiPage />} />
         <Route path="/kontak" element={<ContactPages />} />
+        <Route
+          path="/informasi-pendaftaran"
+          element={<InfoPendaftaranPage />}
+        />
       </Routes>
     </Router>
   );

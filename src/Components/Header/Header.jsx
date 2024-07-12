@@ -170,7 +170,7 @@ export default function Header() {
             </a>
             <div className="absolute top-full left-0 bg-white dark:bg-gray-800 shadow-lg py-2 mt-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out z-10 w-auto">
               <a
-                href="#"
+                href="/informasi-pendaftaran"
                 className="block px-4 py-2 text-sm font-poppins font-normal hover:font-bold hover:bg-blue-50 dark:hover:bg-gray-600 whitespace-nowrap"
               >
                 Informasi Pendaftaran
@@ -335,7 +335,7 @@ export default function Header() {
             {isMobileKabarDropdownOpen && (
               <div className="flex flex-col w-full items-center bg-white dark:bg-gray-700 transition-opacity duration-300 ease-in-out">
                 <a
-                  href="#"
+                  href="/informasi-pendaftaran"
                   className="block px-4 py-2 text-sm font-poppins font-normal hover:font-bold w-full text-center"
                 >
                   Informasi Pendaftaran

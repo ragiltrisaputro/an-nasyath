@@ -31,7 +31,7 @@ export default function CoverMenu() {
               </p>
             </div>
             <button className="px-6 py-2 bg-[#0193DC] rounded-lg font-poppins mt-6 text-white">
-              <Link to="#" className="">
+              <Link to="/profil-pesantren" className="">
                 Lebih Lanjut
               </Link>
             </button>

@@ -91,7 +91,7 @@ const ContactComponent = () => {
         </div>
 
         <div data-aos="fade-up">
-          <h3 className="text-2xl font-bold text-blue-700 mb-4 font-poppins">
+          <h3 className="text-2xl font-bold text-primary mb-4 font-poppins">
             Lokasi Kami
           </h3>
           <div className="w-full h-64 bg-gray-200 rounded-lg overflow-hidden">
@@ -105,7 +105,14 @@ const ContactComponent = () => {
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
               />
               <Marker position={location} icon={customIcon}>
-                <Popup>Pondok Pesantren An-Nasyath</Popup>
+                <Popup>
+                  <a
+                    href="https://maps.app.goo.gl/wWczsoYr947QrUik8"
+                    target="_blank"
+                  >
+                    Pondok Pesantren An-Nasyath
+                  </a>
+                </Popup>
               </Marker>
             </MapContainer>
           </div>
