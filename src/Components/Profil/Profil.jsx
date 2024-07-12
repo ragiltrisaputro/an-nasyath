@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 
 export default function Profil() {
   useEffect(() => {
-    AOS.init({ duration: 3000 });
+    AOS.init({ duration: 1000 });
   }, []);
 
   return (
@@ -27,8 +27,8 @@ export default function Profil() {
         <h2 className="text-2xl font-poppins font-bold">Sejarah</h2>
         <p className="text-justify font-poppins text-md mt-2">
           Pondok Pesantren An-Nasyath didirikan pada tahun XXXX oleh K.H.
-          Muhammad Unsul Jalis dengan tujuan menciptakan lembaga pendidikan
-          Islam yang mampu menghasilkan santri yang berilmu dan berakhlak mulia.
+          Sami'an Muharrom dengan tujuan menciptakan lembaga pendidikan Islam
+          yang mampu menghasilkan santri yang berilmu dan berakhlak mulia.
         </p>
       </section>
 

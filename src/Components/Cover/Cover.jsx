@@ -16,7 +16,7 @@ export default function Cover() {
         <p className="text-white font-poppins text-xs sm:text-sm md:text-base lg:text-lg mb-4">
           Mlangi Nogotirto Gamping Sleman Yogyakarta
         </p>
-        <button className="bg-primary text-white font-poppins font-bold border-2 border-secondary rounded-lg px-4 py-1  md:px-5 md:py-3 lg:px-8 lg:py-2 hover:bg-secondary hover:text-black hover:border-primary">
+        <button className="bg-[#0193DC] hover:bg-[#2BA7E2] text-white font-poppins font-bold rounded-lg px-4 py-1  md:px-5 md:py-3 lg:px-8 lg:py-2">
           <a href="#" className="text-sm">
             Daftar
           </a>

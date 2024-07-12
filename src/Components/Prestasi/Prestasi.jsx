@@ -49,7 +49,7 @@ const Prestasi = () => {
   return (
     <div className="bg-white max-w-6xl mx-auto pt-16 px-4 lg:px-0">
       <section className="mt-8 mb-16" data-aos="fade-up">
-        <h2 className="text-3xl font-bold text-center text-primary mb-4 font-poppins">
+        <h2 className="text-3xl font-bold text-center text-black mb-4 font-poppins">
           Prestasi Pesantren
         </h2>
         <p className="text-lg text-center text-gray-700 font-poppins">
@@ -96,7 +96,7 @@ const Prestasi = () => {
       </div>
 
       <section className="mt-16 mb-8" data-aos="fade-up">
-        <h2 className="text-2xl font-bold text-center text-blue-700 mb-4 font-poppins">
+        <h2 className="text-2xl font-bold text-center text-black mb-4 font-poppins">
           Terima Kasih
         </h2>
         <p className="text-lg text-center text-gray-700 font-poppins">

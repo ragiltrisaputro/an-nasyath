@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 export default function Donasi() {
   useEffect(() => {
-    AOS.init({ duration: 2000 });
+    AOS.init({ duration: 1000 });
   }, []);
 
   return (
@@ -50,7 +50,7 @@ export default function Donasi() {
           </p>
           <p className="text-md font-poppins mb-4">0896-2349-1166</p>
           <button
-            className="bg-primary px-6 py-2 rounded-lg"
+            className="bg-[#0193DC] hover:bg-[#2BA7E2] px-6 py-2 rounded-lg"
             data-aos="fade-right"
           >
             <a href="#" className="text-white font-semibold text-lg">

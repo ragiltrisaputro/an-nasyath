@@ -30,7 +30,7 @@ export default function CoverMenu() {
                 potensi akademik, spiritual, dan sosial mereka secara maksimal.
               </p>
             </div>
-            <button className="px-6 py-2 bg-[#0193DC] rounded-lg font-poppins mt-6 text-white">
+            <button className="px-6 py-2 bg-[#0193DC] hover:bg-[#2BA7E2] rounded-lg font-poppins mt-6 text-white">
               <Link to="/profil-pesantren" className="">
                 Lebih Lanjut
               </Link>
@@ -50,7 +50,7 @@ export default function CoverMenu() {
                     Menyediakan fasilitas modern dan mendukung proses
                     pembelajaran.
                   </p>
-                  <button className="bg-blue-500 px-6 py-0.5 rounded-md text-white font-poppins mt-2">
+                  <button className="bg-[#0193DC] hover:bg-[#2BA7E2] px-6 py-0.5 rounded-md text-white font-poppins mt-2">
                     <Link to="#">Lihat</Link>
                   </button>
                 </div>
@@ -66,7 +66,7 @@ export default function CoverMenu() {
                   <p className="hidden md:block mb-4 font-poppins">
                     Terletak di Mlangi Nogotirto Gamping Sleman Yogyakarta.
                   </p>
-                  <button className="bg-blue-500 px-6 rounded-md text-white font-poppins py-0.5 mt-2 ">
+                  <button className="bg-[#0193DC] hover:bg-[#2BA7E2] px-6 rounded-md text-white font-poppins py-0.5 mt-2 ">
                     <Link to="#">Lihat</Link>
                   </button>
                 </div>
@@ -83,7 +83,7 @@ export default function CoverMenu() {
                     Berdiri sejak tahun 1980, berkomitmen untuk memberikan
                     pendidikan yang berkualitas.
                   </p>
-                  <button className="bg-blue-500 px-6 rounded-md text-white font-poppins py-0.5 mt-2 ">
+                  <button className="bg-[#0193DC] hover:bg-[#2BA7E2] px-6 rounded-md text-white font-poppins py-0.5 mt-2 ">
                     <Link to="#">Lihat</Link>
                   </button>
                 </div>
@@ -100,7 +100,7 @@ export default function CoverMenu() {
                     Meraih berbagai prestasi dalam bidang akademik dan kegiatan
                     ekstrakurikuler.
                   </p>
-                  <button className="bg-blue-500 px-6 rounded-md text-white mt-2 py-0.5 font-poppins">
+                  <button className="bg-[#0193DC] hover:bg-[#2BA7E2] px-6 rounded-md text-white mt-2 py-0.5 font-poppins">
                     <Link to="/prestasi-pesantren">Lihat</Link>
                   </button>
                 </div>

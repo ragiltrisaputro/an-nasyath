@@ -64,7 +64,7 @@ export default function CoverGalery() {
           />
         </div>
         <div className="flex justify-center mt-8" data-aos="fade-up">
-          <button className="bg-blue-500 px-6 py-2 rounded-lg">
+          <button className="bg-[#0193DC] hover:bg-[#2BA7E2] px-6 py-2 rounded-lg">
             <Link to="#" className="text-white font-poppins">
               Lainnya
             </Link>

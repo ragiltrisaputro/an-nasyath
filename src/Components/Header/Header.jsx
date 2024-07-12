@@ -176,7 +176,7 @@ export default function Header() {
                 Informasi Pendaftaran
               </a>
               <a
-                href="#"
+                href="/form-pendaftaran"
                 className="block px-4 py-2 text-sm font-poppins font-normal hover:font-bold hover:bg-blue-50 dark:hover:bg-gray-600 whitespace-nowrap"
               >
                 Form Pendaftaran
@@ -341,7 +341,7 @@ export default function Header() {
                   Informasi Pendaftaran
                 </a>
                 <a
-                  href="#"
+                  href="/form-pendaftaran"
                   className="block px-4 py-2 text-sm font-poppins font-normal hover:font-bold w-full text-center"
                 >
                   Form Pendaftaran
